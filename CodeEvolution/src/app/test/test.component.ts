@@ -7,12 +7,12 @@ import {Component, OnInit} from '@angular/core';
   <div>
   <h1>Hello</h1>
   </div>
-<input [id]= myId type="text" value="subhashis">
+     <input [id]= myId type="text" value="subhashis">
 `,
   styles: [
     `
    div{
-   color : red;
+   color : blue;
 }
 `
   ]
