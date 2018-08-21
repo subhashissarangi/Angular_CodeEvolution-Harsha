@@ -1,0 +1,7 @@
+[
+    {"name": "John ", "age": 30, "car": " No"},
+    {"name": "Surya ", "age": 46, "car": " Yes"},
+    {"name": "Adam ", "age": 65, "car": " Yes"},
+    {"name": "Durga ", "age": 99, "car": " No"},
+    {"name": "Satya ", "age": 500, "car": " No"},
+    {"name": "Subhashis ", "age": 36, "car": " Yes"}]
