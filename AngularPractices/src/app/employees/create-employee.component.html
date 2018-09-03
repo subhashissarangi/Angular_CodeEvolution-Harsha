@@ -1,0 +1,29 @@
+<form   #employeeForm="ngForm" >
+
+<div>
+	<div class="pannel-heading">
+		<h3 class="bg-primary ">Create Employee</h3>
+
+		<div class="mx-auto pannel-body">
+			<div class="form-group"  >
+				<label for="fullName">Full Name</label> 
+				<input id="fullName" type="text" class="form-control" name="fullName"  placeholder="Full Name" ngModel=required>
+			</div>
+			<div class="form-group" >
+				<label for="email">Email</label> 
+				<input id="email" type="text" class="form-control"name="email"  placeholder="email" ngModel=required>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="pannel-footer col-sm-4 ">
+				<button type="submit" class="btn btn-primary">create</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+</form>
+
+<!-- {{employeeForm.value | json}} -->

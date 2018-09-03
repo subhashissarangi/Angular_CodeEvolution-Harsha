@@ -1,0 +1,9 @@
+.imageClass{
+	width:90px;
+	hieght:90px;
+}
+
+.vertical-align{
+	display:flex;
+	align-items:center;
+}

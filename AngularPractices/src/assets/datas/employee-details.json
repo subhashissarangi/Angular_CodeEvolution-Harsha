@@ -1,0 +1,86 @@
+[
+	{
+		"id": 12345,
+		"name": "Maria",
+		"gender": "Female",
+		"email": "Maria@gmail.com",
+		"phoneNumber": 9945667781,
+		"contactPreference": "Newyork city",
+		"dateOfBirth": "12/07/2018",
+		"department": "IT APPS",
+		"isActive": "Active",
+		"photoPath": "assets/images/1.png"
+	},
+	{
+		"id": 12346,
+		"name": "Nicol",
+		"gender": "Female",
+		"email": "Nicol@gmail.com",
+		"phoneNumber": 9988776651,
+		"contactPreference": "Carlifornia",
+		"dateOfBirth": "12/09/2009",
+		"department": "Networking",
+		"isActive": "Active",
+		"photoPath": "assets/images/2.png"
+	},
+	{
+		"id": 12347,
+		"name": "Ketty Perry",
+		"gender": "Female",
+		"email": "Ketty@gmail.com",
+		"phoneNumber": 987654310,
+		"contactPreference": "United Kingdom ",
+		"dateOfBirth": "07/04/1989",
+		"department": "Manager",
+		"isActive": "Active",
+		"photoPath": "assets/images/3.png"
+	},
+	{
+		"id": 12348,
+		"name": "Silverster",
+		"gender": "Male",
+		"email": "Silverster@gmail.com",
+		"phoneNumber": 9876543789,
+		"contactPreference": "Singapore ",
+		"dateOfBirth": "07/04/1984",
+		"department": "Accounts",
+		"isActive": "Inactive",
+		"photoPath": "assets/images/businessman1.png"
+	},
+	{
+		"id": 12349,
+		"name": "Male Gibson",
+		"gender": "Male",
+		"email": "Gibson@gmail.com",
+		"phoneNumber": 98765439134,
+		"contactPreference": "United States Of America ",
+		"dateOfBirth": "07/04/1999",
+		"department": "Manager",
+		"isActive": "Active",
+		"photoPath": "assets/images/businessman2.png"
+	},
+	{
+		"id": 12350,
+		"name": "Nicholas Cage",
+		"gender": "Female",
+		"email": "Nicholas@gmail.com",
+		"phoneNumber": 987654310,
+		"contactPreference": "United States Of America ",
+		"dateOfBirth": "07/04/1979",
+		"department": "Actor",
+		"isActive": "Active",
+		"photoPath": "assets/images/businessman3.png"
+	},
+	{
+		"id": 12351,
+		"name": "Tom Hanks",
+		"gender": "Male",
+		"email": "Tom@gmail.com",
+		"phoneNumber": 987654310,
+		"contactPreference": "#Russia ",
+		"dateOfBirth": "07/04/1965",
+		"department": "Manager",
+		"isActive": "Active",
+		"photoPath": "assets/images/businessman1.png"
+	}
+]

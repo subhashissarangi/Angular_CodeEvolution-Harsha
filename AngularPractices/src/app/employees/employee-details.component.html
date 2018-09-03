@@ -1,3 +1,51 @@
-<p>
-  employee-details works!
-</p>
+
+
+
+<div  *ngFor="let employee of employeeDetails">
+	<div class="mx-auto" >
+		<h3 class="bg-primary ">{{employee.name}}</h3>
+
+		<div >
+			<div class="row">
+				<div class="col-sm-4 ">
+					<img class="imageClass rounded-circle mx-auto d-block" [src]="employee.photoPath" />
+				</div>
+				<div class="col-sm-8 ">
+					<div class="row ">
+						<div class="col">Gender :</div>
+						<div class="col">{{employee.gender}}</div>
+					</div>
+
+					<div class="row ">
+						<div class="col">Phone Number :</div>
+						<div class="col">{{employee.phoneNumber}}</div>
+					</div>
+
+					<div class="row ">
+						<div class="col">Contact Preference :</div>
+						<div class="col">{{employee.contactPreference}}</div>
+					</div>
+
+					<div class="row ">
+						<div class="col">DOB :</div>
+						<div class="col">{{employee.dateOfBirth | date}}</div>
+					</div>
+
+					<div class="row ">
+						<div class="col">Department :</div>
+						<div class="col">{{employee.department}} :</div>
+					</div>
+
+					<div class="row ">
+						<div class="col">Status :</div>
+						<div class="col">{{employee.isActive}}</div> 
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</div>
+

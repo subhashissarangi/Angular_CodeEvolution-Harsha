@@ -1,0 +1,31 @@
+*************************************************************************************************************************************** 
+                                                     ANGULAR-6
+***************************************************************************************************************************************
+
+#1 : ERROR   :  Could not find module “@angular-devkit/build-angular”
+     SOLUTION:  npm install --save-dev @angular-devkit/build-angular
+
+#2 : ng new project-name --routing
+     To create new project with added routing option to it 
+
+#3 : ng g c error-page/page-not-found --spec false --flat true 
+     to create component in the specific folder in this command new folder wont be created and spec for testing purpose 
+     file wont be created
+
+#4 : ng g c component-name -it -is  ||  ng generate component component-name || ng g c folder-name/component-name
+    -it -> In-line template so no separate HTML file will be created 
+    -is -> In-line style so no separate CSS file will be created for styling  
+
+#5 : ng g s service-name  // To generate a new service 
+
+#6 : npm install bootstrap font-awesome 
+     To install Bootstrap in Angular application
+
+#7 : One easy way to do this is by opening the file src/styles.css and adding the following lines:
+    @import "~bootstrap/dist/css/bootstrap.css";
+    @import "~font-awesome/css/font-awesome.css";
+    
+#8 : KUDVENKAT :  "../node_modules/bootstrap/dist/css/bootstrap.min.cs", // add it in angular-cli.json in the styles 
+               section it may be working in working for angular-5 did not find the file in angular-6
+
+#9 : npm audit fix : to fix workspace related issues
